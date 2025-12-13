@@ -1,30 +1,26 @@
-# Blinkit EDA Project
+# Uber Data Analysis
 
-This project contains an Exploratory Data Analysis (EDA) of the Blinkit dataset. The notebook includes data cleaning, visualization, and insights to understand patterns and trends within the data.
+## Project Objective
+Perform exploratory data analysis on Uber trip data to find patterns such as busiest hours, trip distance distribution, and demand trends.
 
-## 📁 Project Structure
+## Dataset
+- Source: Udemy data analytics project course
+- Columns include: date/time, pickup location, trip distance, etc.
 
-* **EDA Blinkit data.ipynb**: Jupyter Notebook containing the full exploratory data analysis.
-* **README.md**: Overview of the project, objectives, and key components.
+## Tools & Libraries
+- Python
+- Jupyter Notebook
+- Pandas, NumPy, Matplotlib, Seaborn
 
-## 📊 Objectives
+## What’s Inside
+- `Uber data analysis.ipynb`: Notebook with full EDA
+- Visualizations: time distribution, frequency of trips, etc.
 
-* Understand data distribution and identify missing values.
-* Explore relationships between key variables.
-* Generate meaningful visual insights for decision‑making.
+## Key Insights
+- Example: Most rides occur in the afternoon/evening
+- (Add your actual insights here)
 
-## Tools and Libraries Used
-
-* Python 3
-* Pandas
-* NumPy
-* Matplotlib / Seaborn
-* Jupyter Notebook
-
-
-## 📈 Key Insights
-
-* Dataset‑level distributions
-* Product and category‑wise trends
-* Sales patterns and correlations
-
+## How to Run
+Install libraries:
+```bash
+pip install pandas numpy matplotlib seaborn
